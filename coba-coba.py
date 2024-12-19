@@ -152,7 +152,7 @@ def calculate_lap(sbox):
 
 # Streamlit App
 def main():
-    st.markdown("### Aplikasi Kriptografi S-box<sub>44</sub>", unsafe_allow_html=True)
+    st.markdown("# Kriptografi S-box<sub>44</sub>", unsafe_allow_html=True)
 
     uploaded_file = st.file_uploader("Unggah File Excel S-box", type=["xlsx"])
 
