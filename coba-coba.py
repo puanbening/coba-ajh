@@ -7,6 +7,7 @@ import os
 def load_sbox_from_excel(file_path):
     try:
         df = pd.read_excel(file_path, header=None)
+        st.dataframe(df)
         sbox = df.values.flatten().tolist()
 
         if len(sbox) == 256:
